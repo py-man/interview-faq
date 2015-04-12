@@ -74,7 +74,7 @@ Requirements:
   
 #distance: 
 
- --> compute a pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat <--
+ --> compute a pair of adjacent different by 1 character. e.g. dog -> dot -> cot -> cat <--
 
   --Bash & Ruby example included
 

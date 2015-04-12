@@ -2,8 +2,8 @@
 FAQ in interviews / Scripting 
 
 To test the below you make use the included vagrant file:
-This will build ubuntu 14.04 and install ruby 1.91 and all the required Gems
-(assuming you have vagrant and virtualbox installed)
+-This will build ubuntu 14.04 and install ruby 1.91 and all the required Gems
+-(assuming you have vagrant and virtualbox installed)
 vagrant up
 vagrant ssh screener
 
@@ -13,10 +13,10 @@ docker build -t screener .
 docker run -d -t -i -h screener --name screener screener bash
 docker exec -it screener bash 
 
-To generate a large file of random number for testing:
+#To generate a large file of random number for testing:
 perl -le'print rand>.5?++$a:--$b for 1..10000000' > /tmp/large_numbers_list
 
-[Screener Questions]
+#[Screener Questions]
 Requirements:
   Ruby 1.9.1
   gem install ./flatten/screener-0.0.1.gem 

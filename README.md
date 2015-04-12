@@ -19,7 +19,7 @@ To Test against a Docker container:
 
     docker exec -it screener bash 
 
-#To generate a large file of random number for testing:
+#To generate a large file of random numbers for testing:
 
   perl -le'print rand>.5?++$a:--$b for 1..10000000' > /tmp/large_numbers_list
 

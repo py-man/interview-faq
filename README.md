@@ -34,6 +34,10 @@ Requirements:
     gem install ./flatten/screener-0.0.1.gem 
   
     gem install ./topn/topn-0.0.1.gem
+    
+    gem install levenshtein
+    
+    gem install Text
   
 
 

@@ -1,7 +1,6 @@
 # interview-faq -FAQ in interviews / Scripting 
-To test the below you make use the included vagrant file:
-
-  This will build ubuntu 14.04 and install ruby 1.91 and all the required Gems
+To test the below you may use the included vagrant file:
+ This will build ubuntu 14.04 and install ruby 1.91 and all the required Gems
 
   (assuming you have vagrant and virtualbox installed)
 

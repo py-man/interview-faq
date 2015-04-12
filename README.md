@@ -9,7 +9,7 @@ To test the below you make use the included vagrant file:
 
   vagrant ssh screener
 
-To Test against a Docker container
+To Test against a Docker container:
 
   (assuming you have Docker installed)
 

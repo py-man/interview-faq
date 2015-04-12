@@ -35,31 +35,34 @@ Requirements:
 
   gem install ./topn/topn-0.0.1.gem
 
-  flatten:  -flatten an array of arbitrarily nested arrays of integers into a flat array of integers.
+  flatten:  
+  
+    -flatten an array of arbitrarily nested arrays of integers into a flat array of integers.
 
-    ruby bin/screener
+      ruby bin/screener
 
-    rake test
+      rake test
 
-  topn:     -given an arbitrarily large file and a numbe output the largest N numbers, highest first.
+  topn:     
+    
+    -given an arbitrarily large file and a numbe output the largest N numbers, highest first.
 
-    numbers_list file included
+      numbers_list file included
 
-    ruby bin/topn numbers_list
+      ruby bin/topn numbers_list
 
-    ./topn.sh numbers_list 10
+      ./topn.sh numbers_list 10
 
-    rake test
+      rake test
 
-  distance: -compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat
+  distance: 
+  
+    -compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat
 
-    dictionary file included
+      dictionary file included
 
-    ruby distance_match.rb
+      ruby distance_match.rb
 
-    ruby distance.rb
+      ruby distance.rb
 
-    ./distance.sh
-
-
-
+      ./distance.sh

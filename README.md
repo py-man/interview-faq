@@ -5,18 +5,19 @@ This will build ubuntu 14.04 and install ruby 1.91 and all the required Gems
   
   (assuming you have vagrant and virtualbox installed)
   
-  vagrant up
-  vagrant ssh screener
+    vagrant up
+    
+    vagrant ssh screener
 
 To Test against a Docker container:
 
   (assuming you have Docker installed)
 
-  docker build -t screener .
+    docker build -t screener .
 
-  docker run -d -t -i -h screener --name screener screener bash
+    docker run -d -t -i -h screener --name screener screener bash
 
-  docker exec -it screener bash 
+    docker exec -it screener bash 
 
 #To generate a large file of random number for testing:
 

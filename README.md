@@ -25,6 +25,8 @@ To Test against a Docker container:
 
 #[Screener Questions]
 
+If you Use Docker or Vagrant above all the gems will be and requirements will be taken care of, if you want to test from the repo itself, install ruby 1.9.1 or use rvm.
+
 Requirements:
 
   Ruby 1.9.1

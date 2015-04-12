@@ -25,14 +25,14 @@ To Test against a Docker container:
 
 #[Screener Questions]
 
-If you Use Docker or Vagrant above all the gems will be and requirements will be taken care of, if you want to test from the repo itself, install ruby 1.9.1 or use rvm.
+If you Use Docker or Vagrant above all the gems will be installed and requirements will be taken care of, if you want to test from the repo itself, install ruby 1.9.1 or use rvm.
 
 Requirements:
 
   Ruby 1.9.1
-
+  
   gem install ./flatten/screener-0.0.1.gem 
-
+  
   gem install ./topn/topn-0.0.1.gem
   
 
@@ -40,7 +40,7 @@ Requirements:
 
   --> flatten an array of arbitrarily nested arrays of integers into a flat array of integers <--
 
-#flatten: 
+  #flatten: 
       
       ruby bin/screener
 
@@ -52,7 +52,7 @@ Requirements:
 
   numbers_list file included
   
-#  topn: 
+  #topn: 
 
       ruby bin/topn numbers_list
 
@@ -67,7 +67,7 @@ Requirements:
 
   dictionary file included
   
- # distance: 
+   #distance: 
 
       ruby distance_match.rb
 

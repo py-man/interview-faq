@@ -46,7 +46,7 @@ Requirements:
 
 --> flatten an array of arbitrarily nested arrays of integers into a flat array of integers <--
 
---Ruby example included
+  --Ruby example included
       
       ruby bin/screener
 
@@ -59,9 +59,9 @@ Requirements:
 
  --> given an arbitrarily large file and a numbe output the largest N numbers, highest first <--
 
---Bash & Ruby example included
+  --Bash & Ruby example included
 
-numbers_list file included
+  --numbers_list file included
 
       ruby bin/topn numbers_list
 
@@ -76,9 +76,9 @@ numbers_list file included
 
  --> compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat <--
 
---Bash & Ruby example included
+  --Bash & Ruby example included
 
---dictionary file included
+  --dictionary file included
 
       ruby distance_match.rb
 

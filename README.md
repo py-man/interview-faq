@@ -29,18 +29,18 @@ If you Use Docker or Vagrant above all the gems will be installed and requiremen
 
 Requirements:
 
-  Ruby 1.9.1
+    Ruby 1.9.1
   
-  gem install ./flatten/screener-0.0.1.gem 
+    gem install ./flatten/screener-0.0.1.gem 
   
-  gem install ./topn/topn-0.0.1.gem
+    gem install ./topn/topn-0.0.1.gem
   
 
 
-
-  --> flatten an array of arbitrarily nested arrays of integers into a flat array of integers <--
 
 #flatten: 
+
+--> flatten an array of arbitrarily nested arrays of integers into a flat array of integers <--
       
       ruby bin/screener
 
@@ -48,11 +48,12 @@ Requirements:
       
 
 
-  --> given an arbitrarily large file and a numbe output the largest N numbers, highest first.
-
-  numbers_list file included
   
 #topn: 
+
+ --> given an arbitrarily large file and a numbe output the largest N numbers, highest first <--
+
+  numbers_list file included
 
       ruby bin/topn numbers_list
 
@@ -62,12 +63,12 @@ Requirements:
 
  
  
- 
-  --> compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat
-
-  dictionary file included
   
 #distance: 
+
+ --> compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat
+
+  dictionary file included
 
       ruby distance_match.rb
 

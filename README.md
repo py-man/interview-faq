@@ -35,13 +35,13 @@ Requirements:
 
   gem install ./topn/topn-0.0.1.gem
 
-  flatten:
+  flatten:  -flatten an array of arbitrarily nested arrays of integers into a flat array of integers.
 
     ruby bin/screener
 
     rake test
 
-  topn: 
+  topn:     -given an arbitrarily large file and a numbe output the largest N numbers, highest first.
 
     numbers_list file included
 
@@ -51,7 +51,7 @@ Requirements:
 
     rake test
 
-  distance:
+  distance: -compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat
 
     dictionary file included
 

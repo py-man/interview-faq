@@ -40,7 +40,7 @@ Requirements:
 
   --> flatten an array of arbitrarily nested arrays of integers into a flat array of integers <--
 
-  #flatten: 
+#flatten: 
       
       ruby bin/screener
 
@@ -52,7 +52,7 @@ Requirements:
 
   numbers_list file included
   
-  #topn: 
+#topn: 
 
       ruby bin/topn numbers_list
 
@@ -67,7 +67,7 @@ Requirements:
 
   dictionary file included
   
-   #distance: 
+#distance: 
 
       ruby distance_match.rb
 

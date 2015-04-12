@@ -57,7 +57,7 @@ Requirements:
   
 #topn: 
 
- --> given an arbitrarily large file and a numbe output the largest N numbers, highest first <--
+ --> given an arbitrarily large file and a number output the largest N numbers, highest first <--
 
   --Bash & Ruby example included
 
@@ -74,7 +74,7 @@ Requirements:
   
 #distance: 
 
- --> compute pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat <--
+ --> compute a pair of adjacent words are only different by 1 character. e.g. dog -> dot -> cot -> cat <--
 
   --Bash & Ruby example included
 

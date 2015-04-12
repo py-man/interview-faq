@@ -1,0 +1,10 @@
+#!/usr/local/bin/ruby
+require 'topn'
+
+filename = ARGV[0]
+puts "Please provide a filename and path" if filename.nil?
+top5 = Topn.get_sorted_n(filename)
+puts top5
+
+
+

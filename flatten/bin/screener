@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'screener'
+flattened = Screener.makeflat()
+puts "Flattened ==>  #{flattened}"
